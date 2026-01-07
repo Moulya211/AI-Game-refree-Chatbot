@@ -1,4 +1,6 @@
 # AI-Game-refree-Chatbot
-This project implements a Python-based AI Game Referee chatbot for a best-of-three Rock–Paper–Scissors–Plus game. The system validates user input, enforces bomb-usage rules, tracks state across rounds, and provides clear round-wise feedback before ending automatically with a final result.
+This is a minimal AI Game Referee for a variant of the Rock Paper Scissors Plus game implemented with the use of the Python programming language. This AI assistant is an independent game referee responsible for explaining the rules of the game. The game takes a best of three format with a new move dubbed “bomb,” with the power of beating everything else, limited to be used once in the game.
+
+The game development involves a clear game status model to monitor round passage and player scores, along with bomb use. This makes all aspects of the game correct and consistent during the entire game playing procedure. The main logic of the game is divided into distinct functions like input processing, solution of a round, and updating game status, which implements clean agent design principles. It also provides a wise mechanism to treat invalid inputs by wasting a round, not halting gameplay. The game automatically ends in three rounds with a declaration of results.
 <br>
 Author - Moulya R Gowda
